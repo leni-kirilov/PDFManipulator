@@ -7,6 +7,8 @@
       <root url="jar://$PROJECT_DIR$/dist/lib/pdfbox-1.0.0_no_chinese.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/log4j-1.2.16-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

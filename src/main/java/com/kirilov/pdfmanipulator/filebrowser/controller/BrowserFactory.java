@@ -5,9 +5,9 @@ import com.kirilov.pdfmanipulator.filebrowser.ui.BrowserImpl;
 import com.kirilov.pdfmanipulator.i18n.Translator;
 
 /**
- *
- * @author Leni Kirilov
- */
+*
+* @author Leni Kirilov
+*/
 public class BrowserFactory {
 
     private static Browser browser;
@@ -26,6 +26,6 @@ public class BrowserFactory {
     }
 
     private BrowserFactory() {
-        throw new RuntimeException("You should not instanciate me");
+        throw new RuntimeException("You should not instantiate me");
     }
 }

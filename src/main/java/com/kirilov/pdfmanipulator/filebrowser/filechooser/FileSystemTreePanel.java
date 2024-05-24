@@ -48,7 +48,6 @@ public class FileSystemTreePanel extends JPanel {
 
         setLayout(new BorderLayout());
         add(tree, BorderLayout.CENTER);
-        logger.warn("//TODO - make directories appear first, then files and not by alphabetical order");
     }
 
     private void addDragFromJTree() {

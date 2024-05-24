@@ -8,6 +8,7 @@ import com.kirilov.pdfmanipulator.workplace.controller.WorkPlaceFactory;
 import com.kirilov.pdfmanipulator.workplace.ui.WorkPlace;
 import java.awt.Dimension;
 
+import java.io.File;
 import java.util.Locale;
 import javax.swing.BorderFactory;
 import javax.swing.GroupLayout;
@@ -28,7 +29,7 @@ public class MainPanel extends JPanel {
     private static final Logger logger = Logger.getLogger(MainPanel.class);
 
     static {
-        PropertyConfigurator.configure("D:/Coding/Eclipse Workspace/PDFManipulator_Testable/src/com/kirilov/pdfmanipulator/mainframe/log_config.prop");
+        PropertyConfigurator.configure(new File("src/main/java/com/kirilov/pdfmanipulator/mainframe/log_config.prop").getAbsolutePath());
     }
 
     public MainPanel() {

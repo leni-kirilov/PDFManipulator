@@ -22,7 +22,7 @@ public class ImageUtils {
      *
      * @throws Exception
      */
-    //TODO fix resize algorithm - use one from work, because it's tested
+    //TODO fix resize algorithm
     public static void resizeImageToJPG(String inputSourceImage, String resultImage, int wantedMaxWidth,
             int wantedMaxHeight) {
         try {

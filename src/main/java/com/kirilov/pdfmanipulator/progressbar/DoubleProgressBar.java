@@ -71,7 +71,7 @@ public class DoubleProgressBar extends JFrame {
     private void initFrame(String title) {
         this.setTitle(title);
         this.setLocationRelativeTo(null);
-        this.setSize(300, 69);
+        this.setSize(300, 80);
         this.setResizable(false);
     }
 
