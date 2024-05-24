@@ -9,6 +9,8 @@ Possible use cases:
 - combine 2 files into 1
 - send only some relevant pages from a big document
 
+![image](https://github.com/leni-kirilov/2010-PDFManipulator/assets/994676/6462be09-0591-44de-b4ee-06bd7e0d1aec)
+
 Try it!
 
 ### DEV ENV SETUP INSTRUCTIONS
@@ -32,7 +34,7 @@ Run from the IntelliJ `MainPanel` file
 
 ### Build status:
 
-TBD no automated tests and CI status badges
+TBD no automated tests and CI status badges, yet 
 
 
 ### Licence
